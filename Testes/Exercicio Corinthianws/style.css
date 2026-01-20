@@ -1,0 +1,43 @@
+@charset "UTF8";
+
+body {
+    font-family:  Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: black;
+}
+ h1 {
+    color: aliceblue;
+ }
+ p{
+    color: aliceblue;
+ }
+ li{
+    color: aliceblue;
+ }
+ img{
+      height: 300px;
+            width: 300px;
+            border-width: 10px ;
+            border-style: solid;
+            border-color: goldenrod;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            
+            margin: auto;
+ }
+ #principal{
+   height: 300px;
+            width: 500px;
+            border-width: 10px ;
+            border-style: solid;
+            border-color: goldenrod;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+ }
