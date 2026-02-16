@@ -29,6 +29,7 @@ header > h1{
     flex: 0 0 200px;
     flex-flow:  row wrap;
     justify-content: flex-end;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.384);
 }
 
 header > nav{
@@ -62,4 +63,5 @@ main{
     border-radius: 10px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.329);
 }
+
 
