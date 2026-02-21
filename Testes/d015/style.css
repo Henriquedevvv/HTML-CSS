@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+.container{
+    display: grid;
+    grid-template-columns: 270px ;
+    grid-template-rows: 80px 40px 400px 40px;
+}
+
+.topo{
+    background-color: #ffff00;
+    grid-area: 1/1/1/4;
+    text-align: center;
+    
+}
+
+.menu{
+    background-color: blueviolet;
+    grid-area: 2/1/2/4;
+    text-align: center;
+}
+
+.principal{
+    background-color: violet;
+    grid-area: 3/1/-3/3;
+}
+
+.secundario{
+    background-color: rgb(56, 5, 104);
+    grid-area: 3/3/-3/3;
+}
+
+.rodape{
+    background-color: aqua;
+    grid-area: 4/1/-2/4;
+    text-align: center;
+}
